@@ -33,6 +33,7 @@ public class Dv extends javax.swing.JFrame {
         rut = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jLabel1.setText("RUT");
 
@@ -70,7 +71,7 @@ public class Dv extends javax.swing.JFrame {
                     .addComponent(ok)
                     .addComponent(jLabel1)
                     .addComponent(rut, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 83, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(DVfinal, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(43, 43, 43))
         );
@@ -84,7 +85,6 @@ public class Dv extends javax.swing.JFrame {
         Validador q=new Validador();
         b=q.dv(rut.getText());
         DVfinal.setText(""+ b );
-        
 // TODO add your handling code here:
     }//GEN-LAST:event_okActionPerformed
 
