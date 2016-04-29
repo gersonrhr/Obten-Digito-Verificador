@@ -33,7 +33,6 @@ public class Validador {
             else{
                     i++;
                     }
-            System.out.println("Probamos "+ i);
         }
         if(validarRut(a,"k")){
         dv= 'k';
@@ -46,7 +45,6 @@ public class Validador {
     {
         boolean flag = false;
         String rut = vrut.trim();
-
         String posibleVerificador = vverificador.trim();
         int cantidad = rut.length();
         int factor = 2;
