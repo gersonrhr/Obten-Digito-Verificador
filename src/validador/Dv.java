@@ -16,6 +16,7 @@ public class Dv extends javax.swing.JFrame {
      */
     public Dv() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
