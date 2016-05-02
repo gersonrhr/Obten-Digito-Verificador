@@ -83,7 +83,7 @@ public class Dv extends javax.swing.JFrame {
     private void okActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_okActionPerformed
         String a="Mal Ingresado";
         char b;
-        Validador q=new Validador();
+        Validadors q=new Validadors();
         b=q.dv(rut.getText());
         DVfinal.setText(""+ b );
 // TODO add your handling code here:

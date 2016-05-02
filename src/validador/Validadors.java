@@ -11,7 +11,7 @@ import javax.swing.JTextField;
  *
  * @author Entix_003
  */
-public class Validador {
+public class Validadors {
 
     /**
      * @param args the command line arguments
@@ -36,7 +36,7 @@ public class Validador {
         }
         if(validarRut(a,"k")){
         dv= 'k';
-        System.out.println("Probamos k");
+//        System.out.println("Probamos k");
         }
         return dv;
     }
